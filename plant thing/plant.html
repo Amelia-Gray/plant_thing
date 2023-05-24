@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Plants</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                
+                <h2 class="logo">PLANT</h2>
+            </div>
+            <div class="menu">
+                <li><a href="plant.html" class="plants">PLANTS</a></li>
+                <li><a href="selection.html" class="myplants"> MY PLANTS</a></li>
+                <li><a href="#" class="account">MY ACCOUNT</a></li>
+                <li class="login"><a href="#" class="login">LOG IN</a></li>
+            </div>
+        </div>
+        <!-- <div class="content"> 
+            <h1>PLANTS</h1>
+            <p class="paragraph">
+                <br>
+                Get information on growing food <br> tailored to you! <br> <br> 
+                <button class="getplanting"><a href="">GET PLANTING</a></button>
+            </p>
+        </div> -->
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close-circle-outline"></ion-icon></span>
+            <div class="form-box logpop">
+                <h2>Log In</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required id="eml" class="eml">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-open-outline"></ion-icon></span>
+                        <input type="password" id="pass" required class="pass">
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">Remember Me    </label>
+                        <a href="" class="fgtpss">    Forgot Your Password?</a>
+                    </div>
+                    <button type="submit" class="smtbtn">Log In</button>
+                    <br>
+                    <div class="login-register">
+                        <br>
+                        <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>  
+            <div class="form-box Register">
+                <h2>Register</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required class="eml">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" required class="usr">
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-open-outline"></ion-icon></span>
+                        <input type="password" required class="pass">
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">Remember Me    </label>
+                    </div>
+                    <button type="submit" class="rgtbtn">Register</button>
+                    <br>
+                    <div class="login-register">
+                        <br>
+                        <p>Already have an account?<a href="#" class="login-link">Log In</a></p>
+                    </div>
+                </form>
+            </div>  
+        </div>
+        <div class="spacer">
+            <p>_____</p>
+        </div>
+    </div>
+    <script src="plant.js"></script>
+</body>
+</html>
